@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MD Asad Imam | CSE Student | Coder | Website Developer</title>
+
+  <meta name="description"
+        content="Official portfolio of MD Asad Imam, Computer Science and Engineering student, coder and website developer.">
+
+  <meta property="og:title"
+        content="MD Asad Imam | CSE Student | Coder | Website Developer">
+  <meta property="og:description"
+        content="Computer Science and Engineering student, coder and website developer.">
+
+  <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav>
+  <div class="wrap nav-wrap">
+
+    <a href="#home" class="logo">
+      ASAD<span>.</span>
+    </a>
+
+    <div id="menu">
+      <a href="#home">Home</a>
+      <a href="#snapshot">Snapshot</a>
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <button id="bg" aria-label="Open Menu">☰</button>
+
+  </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="home">
+
+  <div class="wrap hero-grid">
+
+    <div>
+
+      <img id="photo"
+           class="photo"
+           alt="MD Asad Imam">
+
+      <div class="eyebrow">
+        // Computer Science & Engineering
+      </div>
+
+      <h1 id="hName"></h1>
+
+      <p class="hero-title mono" id="hTitle"></p>
+
+      <p class="hero-tag" id="hTag"></p>
+
+      <div class="actions">
+
+        <a href="#" class="btn primary" id="cvBtn">
+          ⬇ Download CV
+        </a>
+
+        <a href="#gallery" class="btn">
+          View Gallery
+        </a>
+
+      </div>
+
+      <div class="social" id="hSoc"></div>
+
+    </div>
+
+
+    <!-- CODE WINDOW -->
+    <div class="code-window">
+
+      <div class="window-bar">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+
+      <pre id="code"></pre>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- ================= SNAPSHOT ================= -->
+<section id="snapshot" class="alt">
+
+  <div class="wrap reveal">
+
+    <div class="eyebrow">Snapshot</div>
+
+    <h2>Where I Stand Today</h2>
+
+    <div class="snapshot-grid">
+
+      <div class="snapshot-cards">
+
+        <div class="card">
+          <h3>🎓 Education</h3>
+          <p class="muted" id="sEdu"></p>
+        </div>
+
+        <div class="card">
+          <h3>🎯 Focus</h3>
+          <div id="sFocus"></div>
+        </div>
+
+        <div class="card">
+          <h3>⚙️ Technologies</h3>
+          <div id="sTech"></div>
+        </div>
+
+      </div>
+
+
+      <div class="animation-box">
+        <div class="computer-animation">
+          &lt;/&gt;
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+
+  <div class="wrap reveal">
+
+    <div class="eyebrow">Who I Am</div>
+
+    <h2>About Me</h2>
+
+    <div class="about-grid">
+
+      <div>
+
+        <p id="aBio" class="muted"></p>
+
+        <div class="eyebrow education-title">
+          Education
+        </div>
+
+        <p id="aEdu" class="muted"></p>
+
+        <div class="card skills-card">
+
+          <h3>🛠 Skills</h3>
+
+          <div id="aSk"></div>
+
+        </div>
+
+      </div>
+
+
+      <div class="about-animation">
+        <div class="big-code">
+          &lt;/&gt;
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= JOURNEY ================= -->
+<section id="journey" class="alt">
+
+  <div class="wrap reveal">
+
+    <div class="eyebrow">Experience</div>
+
+    <h2>Learning & Building Journey</h2>
+
+    <p class="muted">
+      Learning and personal projects — not employment.
+    </p>
+
+    <div class="timeline" id="tl"></div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= GALLERY ================= -->
+<section id="gallery">
+
+  <div class="wrap reveal">
+
+    <div class="eyebrow">Gallery</div>
+
+    <h2>A Look At My Work</h2>
+
+    <div class="gallery" id="gal"></div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="alt">
+
+  <div class="wrap reveal">
+
+    <div class="eyebrow">Let's Connect</div>
+
+    <h2>Contact</h2>
+
+    <div class="contact-grid">
+
+
+      <!-- CONTACT INFO -->
+      <div>
+
+        <div class="contact-animation">
+          <div class="mail-animation">
+            @
+          </div>
+        </div>
+
+        <div class="card contact-card">
+
+          <h3>Contact Information</h3>
+
+          <div class="contact-item">
+            <span>👤</span>
+            <div id="cNm"></div>
+          </div>
+
+          <div class="contact-item">
+            <span>📍</span>
+            <div id="cLo"></div>
+          </div>
+
+          <div class="contact-item">
+            <span>✉️</span>
+            <div id="cEm"></div>
+          </div>
+
+          <div class="contact-item">
+            <span>📱</span>
+            <div id="cPh"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CONTACT FORM -->
+      <form id="cf" class="card" novalidate>
+
+        <label>Your Name</label>
+
+        <input
+          name="name"
+          type="text"
+          placeholder="Enter your name">
+
+        <div class="error" data-e="name"></div>
+
+
+        <label>Your Email</label>
+
+        <input
+          name="email"
+          type="email"
+          placeholder="Enter your email">
+
+        <div class="error" data-e="email"></div>
+
+
+        <label>Message</label>
+
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Write your message"></textarea>
+
+        <div class="error" data-e="message"></div>
+
+        <br>
+
+        <button class="btn primary" type="submit">
+          Send Message
+        </button>
+
+        <div id="st"></div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+  <div class="wrap">
+
+    <b id="fN"></b>
+
+    <div class="muted" id="fT"></div>
+
+    <div
+      class="social footer-social"
+      id="fSoc">
+    </div>
+
+    <p>
+      © 2026 MD Asad Imam. All rights reserved.
+      ·
+      <a href="#" id="adminOpen">Admin</a>
+    </p>
+
+  </div>
+
+</footer>
+
+
+<!-- ================= LIGHTBOX ================= -->
+<div id="lb">
+
+  <img alt="Gallery Image">
+
+  <div id="lbc"></div>
+
+</div>
+
+
+<!-- ================= ADMIN ================= -->
+<aside id="ad">
+
+  <div id="login">
+
+    <h3>🔒 Admin Login</h3>
+
+    <label>Password</label>
+
+    <input
+      type="password"
+      id="pw"
+      placeholder="Admin password">
+
+    <br><br>
+
+    <button class="btn primary" id="loginBtn">
+      Login
+    </button>
+
+    <button class="btn" onclick="closeAd()">
+      Close
+    </button>
+
+    <p class="error" id="pwe"></p>
+
+  </div>
+
+
+  <div id="panel"></div>
+
+</aside>
+
+
+<!-- ================= TOAST ================= -->
+<div id="toast"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
